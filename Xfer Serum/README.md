@@ -13,3 +13,8 @@ means of drawing, summing harmonics, or importing samples.
 
 The ability to load custom wavetables is one important factor that sets it apart from Massive; and this has also been a benchmark for other
 plugins that were released since.
+
+# Versions
+
+The subfolders denote the minimal version number that patches will run on. I will try to keep as many patches compatible with official 
+releases, i.e. not any random beta.
