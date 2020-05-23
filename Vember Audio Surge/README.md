@@ -16,3 +16,10 @@ Then:
 Alternatively, if the instance of Surge is removed from the track and then loaded again, the patch folder will have been updated as well.
 
 Just click on the "Patch Browser" window to choose from the list. The categories will show up in a dropdown menu.
+
+# About
+
+Surge is now open source and free to get. Formerly a commercial plugin, it's got a distinct character.
+
+Its modulation system is really powerful - LFOs and envelopes can be used interchangeably. It can load and play back samples as well, in addition to loading custom wavetables.
+Its FM system is quite powerful and has a clean sound. If you feel you can go beyond Synth1, get Surge; some of its capabilities rival those of much more expensive commercial synthesizers.

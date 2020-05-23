@@ -2,6 +2,16 @@
 
 https://xferrecords.com/products/serum
 
+# Samples
+
+Serum has a noise oscillator which can load and play back arbitrary samples. Patches that require samples that are not in the factory set can be found as follows:
+
+* go to Menu
+* choose "Show Serum Presets Folder"
+* navigate to "Noises"
+* navigate to "User"
+* copy the .wav file in this folder
+
 # About
 
 Serum is a great software synthesizer. It has arguably paved the way for a set of wavetable "supersynthesizers" - based on wavetables,
@@ -13,8 +23,3 @@ means of drawing, summing harmonics, or importing samples.
 
 The ability to load custom wavetables is one important factor that sets it apart from Massive; and this has also been a benchmark for other
 plugins that were released since.
-
-# Versions
-
-The subfolders denote the minimal version number that patches will run on. I will try to keep as many patches compatible with official 
-releases, i.e. not any random beta.
