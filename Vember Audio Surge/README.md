@@ -1,4 +1,4 @@
-# Where to get
+# Where to get (it's free!)
 
 https://surge-synthesizer.github.io/
 
