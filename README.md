@@ -1,6 +1,6 @@
 # About
 
-This repository contains presets for various software synthesizers. Often, these are remakes - clean-room reverse engineered - of the sounds you can hear in popular music. Others have a more academical approach - to teach or explain certain concepts.
+This repository contains patches for various software synthesizers. Often, these are remakes - clean-room reverse engineered - of the sounds you can hear in popular music. Others have a more academical approach - to teach or explain certain concepts.
 
 I am not a fan of "studio secrets". I have been fortunate enough to learn from many people at no cost; it is only fitting that I return the favor for others, keeping the threshold as low as possible for everyone.
 
