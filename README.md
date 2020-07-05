@@ -4,6 +4,10 @@ This repository contains patches for various software synthesizers. Often, these
 
 I am not a fan of "studio secrets". I have been fortunate enough to learn from many people at no cost; it is only fitting that I return the favor for others, keeping the threshold as low as possible for everyone.
 
+# Do you also take requests?
+
+Yes! Go to https://www.reddit.com/r/synthrecipes/ and ask and there's a good chance I respond; that's where a lot of these patches also originate from.
+
 # Versions
 
 The subfolders denote the minimal version number that patches will run on. I will try to keep as many patches compatible with official 
