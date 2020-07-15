@@ -46,7 +46,7 @@ This is just so that we have a different patch from the regular initialized patc
 
 * In the "Creator" field, just put your own (real or artist) name.
 * The Category field is _not_ optional! Leave it at "Init" for now
-* Now, save this patch. 
+* Save this patch by clicking "OK". 
 
 ![Store the Init patch](images/surge_init_patch_store.png)
 
