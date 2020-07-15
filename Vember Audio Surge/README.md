@@ -29,7 +29,7 @@ Just click on the "Patch Browser" window to choose from the list. Any newly crea
 
 ## It won't load my files!
 
-First of all - `.fxp` is the generic name of a singular VST patch for a VST plugin. Serum, Surge and a variety of other synths all use files with the `.fxp` extension. Just because a patch has the `.fxp` doesn't mean it can be loaded by Surge!
+First of all - `.fxp` is the generic name of a singular VST patch for a VST plugin. Serum, Surge and a variety of other synths all use files with the `.fxp` extension. Just because a patch has the `.fxp` file extension doesn't mean it can be loaded by Surge!
 
 ## Copying into the user folder doesn't work! The patch doesn't show up!
 
