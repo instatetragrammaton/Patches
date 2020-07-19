@@ -4,6 +4,35 @@ This repository contains patches for various software synthesizers. Often, these
 
 I am not a fan of "studio secrets". I have been fortunate enough to learn from many people at no cost; it is only fitting that I return the favor for others, keeping the threshold as low as possible for everyone.
 
+# How am I supposed to use this?
+
+There are three options:
+
+## Download all of it as a single ZIP file.
+
+![Download all](images/download_all.png)
+
+This part of the Github interface may have changed a bit since it was taken. However, the concept is always the same: click the green button and download everything as a single ZIP.
+
+## Download only the patch that you want.
+
+Let's say you made a request and I've directed you to the "overview" folder. I don't link to patches directly because that's a bit messy and hard to maintain.
+Let's take this folder as an example: https://github.com/instatetragrammaton/Patches/tree/master/Vember%20Audio%20Surge/v1.6.6/NES
+
+Click the filename and you'll see a "download" button. Alternatively, the "view raw" link may also work for you.
+
+## Get everything and keep it up to date.
+
+This is the least easy to set up but the most rewarding. **Note**: You will need a Github account to use this.
+
+* First, get Github Desktop here: https://desktop.github.com/
+* Install the software.
+* Choose "Clone a repository from github.com"
+* Choose the "URL" tab and fill out https://github.com/instatetragrammaton/Patches (or just instatetragrammaton/Patches)
+* Pick the location on your harddisk where you want to store it.
+
+That's it! You don't get notifications every time I add a patch (too bad) but all you have to do in Github Desktop is do Repository > Pull - and it'll update everything! I add patches occasionally (see "Do you also take requests?"), so don't expect a full stream of new content every day, but perhaps you'll find something you like in a request :)
+
 # Do you also take requests?
 
 Yes! Go to https://www.reddit.com/r/synthrecipes/ and ask and there's a good chance I respond; that's where a lot of these patches also originate from.
