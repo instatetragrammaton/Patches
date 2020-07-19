@@ -12,7 +12,7 @@ There are three options:
 
 ![Download all](images/download_all.png)
 
-This part of the Github interface may have changed a bit since it was taken. However, the concept is always the same: click the green button and download everything as a single ZIP.
+This part of the Github interface may have changed a bit since I took this screenshot. However, the concept is always the same: click the green button and download everything as a single ZIP.
 
 ## Download only the patch that you want.
 
