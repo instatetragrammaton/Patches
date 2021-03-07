@@ -50,6 +50,8 @@ tl,dr: you are free to use these patches, and attribution is very much appreciat
 
 # Disclaimer
 
+Any references to equipment, songs, artists, videogames or other media are solely used for illustration. The trademarks and copyright are property of their respective owners.
+
 All patches are supplied as-is. All patches have been built by me, from scratch. 
 
 ## So what exactly do you mean by this?
@@ -61,5 +63,3 @@ Every patch you find here has started its life as an initialized patch - usually
 That said, some of my presets assume that there's certain factory content present. This appears mostly to be the case with wavetable synthesizers that may store (in-line) the wavetables in the patch, or the patch contains references to these. To re-save these wavetables and give them other names would be just as disingenious as slightly tweaking and renaming patches from commercial soundsets, so I have to assume in good faith that these wavetables are factory content, but I cannot guarantee full GPLv3-style compliance.
 
 Some patches require additional samples to work. In most cases, they are not part of the patch itself; they have to be loaded separately. To keep everything coherent, they're wrapped in a ZIP file. These samples did not originally appear in commercial soundsets or in existing mechanical recordings; I've made them myself.
-
-Any references to equipment, songs, artists, videogames or other media are solely used for illustration. The trademarks and copyright are property of their respective owners.
