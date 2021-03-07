@@ -10,10 +10,16 @@ The interface combines both drag & drop with a modulation matrix, and programmin
 
 Backed by a strong community with lots of skilled sound designers, this is an incredibly promising plugin with a bright future.
 
+## Vital Pro and patch re-use
+
+I have the Vital Pro version. This version ships with more presets and wavetables than the regular Vital Basic version. In some of the patches, I use wavetables that may only be available in the Pro version. I can not guarantee that they're available in the Free version - then again, Vital in-lines wavetables and samples into the file, so you shouldn't get any "wavetable missing" or "sample missing" errors.
+
+When is this an issue? When you want to use my patches in other projects. For anything that uses basic waveforms, it should be OK - since these are trivial to draw.
+
 # How to install presets
 
 In Vital, click the hamburger menu (it looks like ☰) and choose "Open External Preset". Then, navigate to the preset you downloaded, and select it. Alternatively, choose "Browse presets" and right-click any preset, then choose "Open File Location". This shows you where presets are installed.
 
 For Windows, it's `%userprofile%\Documents\Vital\`. If you just type `%userprofile%` in your file explorer, it'll automatically jump to `C:\Users\Your Name\` - assuming that your user folder is installed on your C drive.
 
-You can easily create categories per user. You could create a new folder called `%userprofile%\Documents\Vital\Instatetragrammaton\Presets`. In there, you can just copy all the `.vital` files, and they'll show up in the plugin. Depending on which version you're running, you may need to re-instantiate it.
+You can easily create categories per user. You could create a new folder called `%userprofile%\Documents\Vital\Instatetragrammaton\Presets`. In there, you can just copy all the `.vital` files, and they'll show up in the plugin. Depending on which version you're running, you may need to re-instantiate it.\
