@@ -14,7 +14,7 @@ Backed by a strong community with lots of skilled sound designers, this is an in
 
 I have the Vital Pro version. This version ships with more presets and wavetables than the regular Vital Basic version. In some of the patches, I use wavetables that may only be available in the Pro version. I can not guarantee that they're available in the Free version - then again, Vital in-lines wavetables and samples into the file, so you shouldn't get any "wavetable missing" or "sample missing" errors.
 
-If you want to re-distribute my patches, any wavetable that is called "Init" or "TWTT" is not based on the factory wavetables.
+If you want to re-distribute my patches, any wavetable that is called "Init" or "TWTT" is not based on the factory wavetables; in other words, redistribution is not an issue.
 
 # How to install presets
 
