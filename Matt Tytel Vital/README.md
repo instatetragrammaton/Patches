@@ -16,6 +16,8 @@ I have the Vital Pro version. This version ships with more presets and wavetable
 
 The patches in a folder called "UsingFactoryContent" assume you have a version of Vital with any of the included wavetables. All patches outside of it are free from factory content.
 
+Thanks to @riban-bw, this set now also appears in [Zynthian](https://github.com/zynthian/zynthian-data/tree/master/presets/lv2/Vitalium_instatetragrammaton.lv2)!
+
 # How to install presets
 
 In Vital, click the hamburger menu (it looks like ☰) and choose "Open External Preset". Then, navigate to the preset you downloaded, and select it. Alternatively, choose "Browse presets" and right-click any preset, then choose "Open File Location". This shows you where presets are installed.
