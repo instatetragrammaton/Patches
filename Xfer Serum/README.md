@@ -12,6 +12,8 @@ Serum has a noise oscillator which can load and play back arbitrary samples. Pat
 * navigate to "User"
 * copy the .wav file in this folder
 
+If you don't have the "User" folder - just create one! When you restart Serum, it'll show up like the others.
+
 # About
 
 Serum is a great software synthesizer. It has arguably paved the way for a set of wavetable "supersynthesizers" - based on wavetables,
