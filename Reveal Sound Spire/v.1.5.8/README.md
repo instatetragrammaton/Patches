@@ -1,0 +1,2 @@
+This version has been available since April 2021 (see also https://www.reveal-sound.com/content/changelog.php?spire ). When I installed my new DAW, I finally bothered to update it - the old version was functioning just fine for me and nothing changed in the sound, so hey - why upgrade, right?
+That said, I like the new librarian they've implemented! This does however mean that the patch format has changed as well, apparently - now .spf2 files are used for presets.
