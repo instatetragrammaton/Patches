@@ -76,6 +76,11 @@ This is the final "have you tried switching it off and on again?" option.
 
 # About
 
-Surge XT is the new and improved version of Surge. It's gained several new modulation possibilities and can even execute bits of code as modulation, which is a delightfully deep rabbit hole to get lost in.
+Surge is now open source and free to get. Formerly a commercial plugin, it's got a distinct character.
 
-All the existing Surge patches will still work, but to reflect the release of XT I decided to create a new folder.
+Its modulation system is really powerful - LFOs and envelopes can be used interchangeably. It can load and play back samples as well, in addition to loading custom wavetables.
+Its FM system is quite powerful and has a clean sound. If you feel you can go beyond Synth1, get Surge; some of its capabilities rival those of much more expensive commercial synthesizers.
+
+# Update
+
+New releases are now found under Surge XT.
