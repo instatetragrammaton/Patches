@@ -2,6 +2,10 @@
 
 https://surge-synthesizer.github.io/
 
+# Wait, this is not Surge XT
+
+True. I think the presets will still load, however - haven't found issues with opening my older patches in a newer version of Surge.
+
 # How to load presets
 
 * Click on the "Menu" button in the bottom left of the plugin window
