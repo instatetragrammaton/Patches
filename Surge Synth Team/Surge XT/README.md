@@ -2,6 +2,16 @@
 
 https://surge-synthesizer.github.io/
 
+# Downloading single patches
+
+Github tries to make sense of the .fxp files and helpfully shows them as a huge text file with a single line. This is of course not the way to go.\
+
+To download a single patch, click the "Raw" button on the righthand side of the screen.
+
+![Download a single patch](images/surge_download_single_patch.png)
+
+This should prompt most browsers to just download the .fxp file. Once you have that, continue reading.
+
 # How to load presets
 
 * Click on the "Menu" button in the bottom left of the plugin window
