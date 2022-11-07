@@ -4,7 +4,7 @@ https://surge-synthesizer.github.io/
 
 # Downloading single patches
 
-Github tries to make sense of the .fxp files and helpfully shows them as a huge text file with a single line. This is of course not the way to go.\
+Github tries to make sense of the .fxp files and helpfully shows them as a huge text file with a single line. This is not really useful.
 
 To download a single patch, click the "Raw" button on the righthand side of the screen.
 
