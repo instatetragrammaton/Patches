@@ -35,12 +35,13 @@ That's it! You don't get notifications every time I add a patch (too bad) but al
 
 # Do you also take requests?
 
-Yes! Go to https://www.reddit.com/r/synthrecipes/ and ask and there's a good chance I respond; that's where a lot of these patches also originate from.
+You can always ask nicely! Keep in mind - _I do this for free, for fun, as time permits, and on my schedule_. No guarantees, no demands.
+
+Furthermore, I'm not the only person who knows how to create/recreate sounds - [r/synthrecipes](https://reddit.com/r/synthrecipes/) and [r/synthesizers](https://www.reddit.com/r/synthesizers/) have several people who can help. Don't ask just one person - ask an entire community :)
 
 # Versions
 
-The subfolders denote the minimal version number that patches will run on. I will try to keep as many patches compatible with official 
-releases, i.e. not any random beta.
+The subfolders denote the minimal version number that patches will run on. I will try to keep as many patches compatible with official releases, i.e. not any random beta.
 
 # License
 
