@@ -25,3 +25,27 @@ In Vital, click the hamburger menu (it looks like ☰) and choose "Open External
 For Windows, it's `%userprofile%\Documents\Vital\`. If you just type `%userprofile%` in your file explorer, it'll automatically jump to `C:\Users\Your Name\` - assuming that your user folder is installed on your C drive.
 
 You can easily create categories per user. You could create a new folder called `%userprofile%\Documents\Vital\Instatetragrammaton\Presets`. In there, you can just copy all the `.vital` files, and they'll show up in the plugin. Depending on which version you're running, you may need to re-instantiate it.\
+
+# My patch doesn't work!
+
+If you're on an older version of Vital or the free version, you might get an error that says something like "This patch was made with a newer version". Here's how to fix it.
+
+Open the .vital patch with an application like Windows Notepad or [VS Code on MacOS](https://code.visualstudio.com) (this seems overkill, but all notepad-like applications don't seem free). You'll notice that it is a text file.
+
+Scroll all the way to the bottom and it'll say something like this:
+
+```json
+"version":"1.5.3"}]},"synth_version":"1.5.3"}
+```
+
+Change this to:
+
+```json
+"version":"1.0.0"}]},"synth_version":"1.0.0"}
+```
+
+and save the file.
+
+Unless the patch uses specific features which are only available in that version of Vital, this should make the patch work. The reason for this is so that newer features won't make older versions of Vital crash - think of new warping modes etc.
+
+Wavetables are stored in base64 format inside of the file, which means that if a wavetable was created with a paid feature such as Text-To-Wavetable - it'll still work just fine on a free version. Generating the TTWT is what costs money, not distributing it.
