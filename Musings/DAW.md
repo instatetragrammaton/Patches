@@ -7,6 +7,13 @@ A DAW has several responsibilities. It's a potential centerpiece of your setup.
 
 Before we start, it's useful to consult the glossary which has some nice tl;dr explanations.
 
+## Is something like an MPC One a DAW? Or a Roland Fantom? Or...
+
+* They may have DAW-like functionality - an MPC One can for instance load software synths, but only its own kind. A Fantom can record audio tracks.
+* They can fulfill a DAW-like role in the studio - controlling everything else.
+
+Are they DAWs? Well, in general the best reason to not call them that is because of their restrictions with regards to plugins that can be run. Groovebox and workstation as terminology basically also imply "not a computer".
+
 # Conductor
 
 DAWs often have a MIDI sequencer. That makes a DAW a kind of [conductor](https://en.wikipedia.org/wiki/Conducting) - it tells other instruments what to play, but doesn't make any music by itself.
