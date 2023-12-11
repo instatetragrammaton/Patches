@@ -57,8 +57,10 @@ In most cases the number of inputs will be equal to the number of outputs (so 8 
 
 # Marketing and ADAT 
 
-[The Focusrite 18i20 claims to have 18 inputs and 20 outputs](https://focusrite.com/products/scarlett-18i20). However, looking on the back only shows 2 inputs 
-on the front and 6 on the back. Where's the rest?
+[The Focusrite 18i20 claims to have 18 inputs and 20 outputs](https://focusrite.com/products/scarlett-18i20). However, if we look at it, it only shows 2 (line/XLR) inputs 
+on the front and 6 on the back. 
+
+Where's the rest?
 
 The thing is that 8 of those inputs are ADAT inputs. This means you need to buy an additional [ADAT](Audio-inputs-outputs.md) converter such as the Behringer ADA8200 to 
 get the full set of analog inputs available.
