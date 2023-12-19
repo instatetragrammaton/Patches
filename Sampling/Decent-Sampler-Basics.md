@@ -1,7 +1,7 @@
 # Introduction
 
 DecentSampler is a free multi-platform plugin and standalone piece of software that allows you to create sample-based instruments. It requires some effort to get things going, but once you've got the hang of it you can 
-create nice self-contained sample libraries that are preferable to SoundFonts.
+create nice self-contained sample libraries that are preferable to SoundFonts. It also supports basic effects.
 
 While the documentation is [extensive](https://www.decentsamples.com/docs/format-documentation.html), it can still be daunting to create something - especially if you've never written code. This guide is intended for that audience.
 
