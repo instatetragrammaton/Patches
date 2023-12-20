@@ -1,7 +1,8 @@
 # Introduction
 
-DecentSampler is a free multi-platform plugin and standalone piece of software that allows you to create sample-based instruments. It requires some effort to get things going, but once you've got the hang of it you can 
-create nice self-contained sample libraries that are preferable to SoundFonts. It also supports basic effects.
+DecentSampler is a free multi-platform plugin and standalone piece of software that allows you to create sample-based instruments. 
+It requires some effort to get things going, but once you've got the hang of it you can create nice self-contained sample libraries that are preferable to SoundFonts.
+It also supports basic effects.
 
 While the documentation is [extensive](https://www.decentsamples.com/docs/format-documentation.html), it can still be daunting to create something - especially if you've never written code. This guide is intended for that audience.
 
@@ -33,15 +34,16 @@ One part of this consists of setting up an account. Don't worry - nothing needs 
 
 ## Library Setup
 
-After creating the account, the software asks where the library needs to be set up. This can be changed later if needed in File > Preferences. For now, I've just created a folder on the desktop called "decentsampler".
+After creating the account, the software asks where the library needs to be set up. This can be changed later if needed in File > Preferences. For now, I've just created a folder on the desktop called `decentsampler`.
 
 ![Library setup](images/decentsampler_library.png)
 
 The full location is thus `C:\Users\Instatetragrammaton\Desktop\decentsampler`.
 
-For Windows-based desktop DAWs, I would recommend a separate drive for the OS/applications and a separate drive for sample libraries. This lets you choose a smaller, faster drive (for instance 512 GB) for OS duties and a bigger, slower drive (for instance 4 TB) for samples. If we assume that you have such a setup and you solely use your computer for music production, then `D:\DecentSampler` is a fine location, too.
+For Windows-based desktop DAWs, I would recommend a separate drive for the OS/applications and a separate drive for sample libraries. This lets you choose a smaller, faster drive (for instance 512 GB) for OS duties and a bigger, slower drive (for instance 4 TB) for samples. If we assume that you have such a setup and you solely use your computer for music production, then `D:\DecentSampler` is a fine location, too. Otherwise, feel free to create a new folder on your C:\ drive, but keep in mind that Windows generally finds this suspicious - you need administrator rights.
 
-Additionally, if you must wipe and reinstall Windows, all you need is to reinstall the software - not the libraries. For big libraries such as [Native Instruments Komplete](https://www.native-instruments.com/en/catalog/software/), this can save a lot of time. 
+Additionally, the benefit of a separate drive is that if you must wipe and reinstall Windows, all you need is to reinstall the software - not the libraries.
+For big libraries such as [Native Instruments Komplete](https://www.native-instruments.com/en/catalog/software/), this can save a lot of time. 
 
 ## Audio Setup
 
@@ -58,6 +60,10 @@ Once this is done we can close DecentSampler for a while.
 # Preparing the samples
 
 Making a sample library truly starts with recording the sounds that we want to use. For this practical example, I've recorded a Minimoog brass sound. I've played each of the 44 keys, one by one, holding the note for a while to capture the full duration. All of this was recorded as one big .aif file.
+
+Since this file is greater than 25 megabytes, it can not be uploaded to Github in that form - but it is small enough when saved as a FLAC file. Get it here - https://github.com/instatetragrammaton/Patches/blob/master/Sampling/samples/minibrass.flac and click the download button on the righthand side.
+
+A recent enough version of Audacity will [happily open this file](https://manual.audacityteam.org/man/importing_audio.html), or otherwise it will tell you that it needs the FLAC encoder. It is also possible to use [fre:ac](https://www.freac.org/) to convert the file to .wav first; any lossless format is fine.
 
 The first part of the work consists of preparing the samples themselves. For this, we can use [Audacity](https://www.audacityteam.org/). If we open the recording in Audacity, it may look like this:
 
@@ -176,6 +182,8 @@ Call the file `minibrass.dspreset`.
 
 ![Creating a new file](images/vscode_create_file.png)
 
+It will show up in red, because XML files are supposed to have content, and this file is still empty. This is however not an issue.
+
 Again, note how the folder has the same name as this file, which is also the start of the name of each .wav file. This consistency makes searching for things really easy.
 
 When the file is created, it's still empty. Let's put something in there. Copy the code that's shown here:
@@ -257,7 +265,7 @@ The result is this:
 
 ![DecentSampler preset loaded](images/decentsampler_loaded.png)
 
-The note C4 is highlighted in blue. This means that there is a sample assigned to it. If you click it, you should hear a sound.
+The note C3 is highlighted in blue. This means that there is a sample assigned to it. If you click it, you should hear a sound.
 
 No other keys will make a sound yet, but that's going to change.
 
