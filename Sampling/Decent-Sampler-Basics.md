@@ -220,7 +220,7 @@ When the file is created, it's still empty. Let's put something in there. Copy t
   <groups attack="0.000" decay="25" sustain="1.0" release="0.430" volume="-3dB">
     <group>
       <!-- HERE WE CAN PUT OUR SAMPLES -->
-      <sample loNote="60" hiNote="60" rootNote="60" path="minibrass_60.wav"/>
+      <sample loNote="72" hiNote="72" rootNote="72" path="minibrass_72.wav"/>
     </group>
   </groups>
   <effects>
@@ -256,3 +256,78 @@ Let's open DecentSampler. By default, it starts with a blank slate. Go to File >
 The result is this:
 
 ![DecentSampler preset loaded](images/decentsampler_loaded.png)
+
+The note C4 is highlighted in blue. This means that there is a sample assigned to it. If you click it, you should hear a sound.
+
+No other keys will make a sound yet, but that's going to change.
+
+## Experimenting With Range
+
+First, let's see what happens if we change some of the numbers. Go back to VS Code again and in the .dspreset file, change this line:
+
+```
+<sample loNote="72" hiNote="72" rootNote="72" path="minibrass_72.wav"/>
+```
+
+to this:
+
+```
+<sample loNote="60" hiNote="84" rootNote="72" path="minibrass_72.wav"/>
+```
+
+We have changed `loNote` to `60`, `hiNote` to `84`, and we left the rest unchanged.
+
+Now, save the file in VS Code. In DecentSampler, do File > Reload.
+
+You should see the following:
+
+![DecentSampler preset loaded](images/decentsampler_reload.png)
+
+DecentSampler is a [chromatic sampler](https://github.com/instatetragrammaton/Patches/tree/master/Sampling#sampling-types). We have changed the size of the keyzone. Clicking any of the blue keys now produces a sound, but the duration of the note on the highest blue key is only half of the original sample, and the duration of the note on the lowest blue key is twice that of the original sample.
+
+## One Sample Per Key
+
+Since we have 44 samples, we can now assign each of them to a note. To do that, we are going to add more instructions. 
+
+In XML, a word wrapped in angular brackets is called an [element](https://www.w3schools.com/xml/xml_elements.asp), and a piece of data inside is called an [attribute](https://www.w3schools.com/xml/xml_attributes.asp).
+
+So, let's add some samples! This is where a consistent naming scheme comes in handy.
+
+Let's change this:
+
+```
+<sample loNote="60" hiNote="84" rootNote="72" path="minibrass_72.wav"/>
+```
+
+into this:
+
+```
+<sample loNote="72" hiNote="72" rootNote="72" path="minibrass_72.wav"/>
+<sample loNote="71" hiNote="71" rootNote="71" path="minibrass_71.wav"/>
+<sample loNote="70" hiNote="70" rootNote="70" path="minibrass_70.wav"/>
+<sample loNote="69" hiNote="69" rootNote="69" path="minibrass_69.wav"/>
+<sample loNote="68" hiNote="68" rootNote="68" path="minibrass_68.wav"/>
+<sample loNote="67" hiNote="67" rootNote="67" path="minibrass_67.wav"/>
+<sample loNote="66" hiNote="66" rootNote="66" path="minibrass_66.wav"/>
+<sample loNote="65" hiNote="65" rootNote="65" path="minibrass_65.wav"/>
+<sample loNote="64" hiNote="64" rootNote="64" path="minibrass_64.wav"/>
+<sample loNote="63" hiNote="63" rootNote="63" path="minibrass_63.wav"/>
+<sample loNote="62" hiNote="62" rootNote="62" path="minibrass_62.wav"/>
+<sample loNote="61" hiNote="61" rootNote="61" path="minibrass_61.wav"/>
+<sample loNote="60" hiNote="60" rootNote="60" path="minibrass_60.wav"/>
+```
+
+Make sure you don't accidentally change or delete the `<group>` and `</group>` elements that surrounds this list.
+
+As you can see, the pattern is really simple: if you have one sample per key, all the numbers on every line are equal.
+
+Let's save this again and do File > Reload.
+
+It now looks like this:
+
+![DecentSampler preset loaded](images/decentsampler_penultimate.png)
+
+Each note should now play the correct sample at the correct pitch and duration.
+
+You can now include the rest of the notes going all the way back to `minibrass_29.wav` and your first library is done! The order of the notes does not matter much either - whether you start with 72 or end 
+with it does not matter.
