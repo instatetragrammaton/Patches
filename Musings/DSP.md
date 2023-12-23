@@ -36,3 +36,9 @@ or something else, like updating a small 2 x 16 character display.
 # The difference
 
 The real difference that is worth paying for is the dedicated interface and the promise of stability. A DSP-based synth will just not let you play more than the number of voices that is advertised. A general purpose computer will happily melt down and run at 273% CPU usage if you ask it to.
+
+It is not that companies with DSP engineers have brilliant people and that plugin builders somehow don't. The principles of creating oscillators and filters and digital audio is the same across platforms. 
+What makes a developer valuable is knowing how to do this with minimal CPU usage and a minimal number of trade-offs. Nobody will buy a plugin if it can only generate one voice at a time because it needs to squeeze the last drop out of every core, no matter how great that sounds; it's just not practical.
+Additionally, if it's about modeling an existing synthesizer, the same developer must be able to perform an in-depth analysis of the phenomena in an (analog) synthesizer.
+
+There is also the matter of taste; give two developers with a different taste in music the assignment to model a synthesizer and the one who prefers NIN over Jarre will voice it differently.
