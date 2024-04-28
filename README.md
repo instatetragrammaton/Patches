@@ -35,9 +35,7 @@ That's it! You don't get notifications every time I add a patch (too bad) but al
 
 # Do you also take requests?
 
-You can always ask nicely! Keep in mind - _I do this for free, for fun, as time permits, and on my schedule_. No guarantees, no demands.
-
-Furthermore, I'm not the only person who knows how to create/recreate sounds - [r/synthrecipes](https://reddit.com/r/synthrecipes/) and [r/synthesizers](https://www.reddit.com/r/synthesizers/) have several people who can help. Don't ask just one person - ask an entire community :)
+See [here](Synthesis/Requests.md).
 
 # Versions
 
