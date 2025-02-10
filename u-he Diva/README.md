@@ -2,6 +2,10 @@
 
 https://u-he.com/products/diva/
 
+# How to download
+
+Diva's .h2p patch format is plain text. When you click the patch, you see a textual description. Click the "Raw" button in the top right of the screen so that your browser downloads it as an actual file.
+
 # About
 
 Diva was released back in 2011. It has some revolutionary technology - zero-delay feedback filters.
