@@ -18,6 +18,14 @@ The patches in a folder called "UsingFactoryContent" assume you have a version o
 
 Thanks to [@riban-bw](https://github.com/riban-bw), this set now also appears in [Zynthian](https://github.com/zynthian/zynthian-data/tree/master/presets/lv2/Vitalium_instatetragrammaton.lv2)!
 
+# How to download presets
+
+Vital patches - with the extension .vital - are just text files that contain [JSON](https://en.wikipedia.org/wiki/JSON). Github is a bit confused by this, and will display the patches as text files too.
+
+To download individual patches, use the "Download raw" button shown here:
+
+![Download raw file](images/download_raw.png)
+
 # How to install presets
 
 In Vital, click the hamburger menu (it looks like ☰) and choose "Open External Preset". Then, navigate to the preset you downloaded, and select it. Alternatively, choose "Browse presets" and right-click any preset, then choose "Open File Location". This shows you where presets are installed.
