@@ -21,6 +21,8 @@ There's a lot you can already do with a single oscillator, which requires a slig
 
 # Usage
 
+The number of the folder (e.g. 20399) indicates the revision/build number. Instead of versioning like 1.0, 1.1 etc. this build number is probably a more reliable communicator of (in)compatibility.
+
 Since these are effectively text files and Github loves to display text files, use the "Download raw file" icon when looking at the preset to get the proper version.
 
 ![Download raw file](images/download_raw.png)
