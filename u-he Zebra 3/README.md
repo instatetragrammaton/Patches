@@ -4,7 +4,11 @@ https://u-he.com
 
 # About
 
-While I have several u-he products (Diva, ACE, Repro), I never had their flagship plugin, Zebra 2. Zebra 3, the long-anticipated follow-up, took 12 years to develop. At the time of writing it's still in public beta, so I hope the patches stay compatible for the time being.
+While I have several u-he products (Diva, ACE, Repro), I never had their flagship plugin, Zebra 2. Zebra 3, the long-anticipated follow-up, took 12 years to develop. \
+
+> At the time of writing it's still in public beta, so I hope the patches stay compatible for the time being.
+> Get your copy here: https://www.kvraudio.com/forum/viewtopic.php?t=625544
+> If you decide to buy it, you don't need to reinstall anything.
 
 It's a wavetable synth/additive synth, and 3 manages to add some more to the mix as well. It does not exactly fit in the same category as Serum 2, PhasePlant et al where modulation is practically infinite.
 
