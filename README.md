@@ -14,6 +14,8 @@ There are three options:
 
 This part of the Github interface may have changed a bit since I took this screenshot. However, the concept is always the same: click the green button and download everything as a single ZIP.
 
+_**Note**: You do *not* need a Github account for this._
+
 ## Download only the patch that you want.
 
 Let's say you made a request and I've directed you to the "overview" folder. I don't link to patches directly because that's a bit messy and hard to maintain.
@@ -21,9 +23,13 @@ Let's take this folder as an example: https://github.com/instatetragrammaton/Pat
 
 Click the filename and you'll see a "download" button. Alternatively, the "view raw" link may also work for you.
 
+_**Note**: You do *not* need a Github account for this._
+
 ## Get everything and keep it up to date.
 
-This is the least easy to set up but the most rewarding. **Note**: You will need a Github account to use this.
+This is the least easy to set up but the most convenient if you just want to press a single button and get all updates.
+
+_**Note: You need a Github account for this.**_
 
 * First, get Github Desktop here: https://desktop.github.com/
 * Install the software.
