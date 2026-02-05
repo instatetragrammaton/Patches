@@ -8,7 +8,9 @@ Primer is the plugin version of the synth used in [Syntorial](https://syntorial.
 
 [Audible Genius](https://audiblegenius.com/) makes award-winning, interactive music courses for digital musicians. **Syntorial** teaches subtractive synthesis by ear through 190+ lessons with a built-in synth. **Primer** is that same synth as a VST/VST3/AU plugin (and standalone), so you can use it in your DAW and load the same presets you use in the course.
 
-Primer is a subtractive synth aimed at learning but capable of a wide range of sounds: three oscillators (two main + sub), saw/pulse/triangle/sine, low/band/high-pass filter, filter and amp ADSR plus mod AD, LFO, and effects (distortion, chorus, phaser, delay, reverb). It includes unison, ring modulation, oscillator sync, a visualizer, and a randomizer. Presets use the `.primer` file extension.
+Primer is a subtractive synth aimed at learning for beginners and intermediate but capable of a wide range of sounds: three oscillators (two main + sub), saw/pulse/triangle/sine, low/band/high-pass filter, filter and amp ADSR plus mod AD, LFO, and effects (distortion, chorus, phaser, delay, reverb). It includes unison, ring modulation, oscillator sync, a visualizer, and a randomizer. Presets use the `.primer` file extension.
+
+Audible Genius hosts a [Famous Synthesizer Sounds preset library](https://www.syntorial.com/presets)—hundreds of presets that recreate sounds from famous songs (Primer, Serum, and Vital), filterable by type, genre, and synth. The presets in this repo are those Primer remakes: we’re adding them here so you can package them and use them directly in your DAW.
 
 # How to download presets
 
