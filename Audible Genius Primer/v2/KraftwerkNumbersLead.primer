@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Syntorial compatibleWith="syntorial, primer" version="2" website="www.syntorial.com"
+           osc1Fine="2" osc1PW="0.5" osc2Fine="-2" osc2Semi="0" osc2PW="0.5"
+           oscMix="0.5" subVol="-82" noise="-82" fm="0" key="0.49" cutoff="0.54"
+           res="0" fEnvAmt="0.18" aFilEnv="26.15" dFilEnv="1890" sFilEnv="1"
+           rFilEnv="10000" aAmpEnv="13.99" dAmpEnv="132.04" sAmpEnv="0"
+           rAmpEnv="121.22" aModEnv="0" dModEnv="0" mEnvAmt="0.5" lfoRate="0"
+           lfoAmt="0.1" mainVol="6" porta="0" velAmt="0" mwAmt="0" unisonSpread="0"
+           unisonDetune="0.171" distAmt="0" chorusMix="0" chorusRate="1"
+           phaserMix="0" phaserFeed="0.8" delayMix="0.47" delayTime="3"
+           delayFeed="0.51" delaySpread="13.5" reverbMix="0" reverbSize="0.5"
+           osc1Wave="1" osc2Wave="1" subWave="2" filterType="1" mEnvDest="1"
+           lfoWave="2" lfoDest="2" voiceCount="1" unisonVoice="1" mwDest="1"
+           velDest="1" pbRange="3" osc1On="1" osc2On="1" ring="0" sync="0"
+           start="1" lfoMono="1" lfoPoly="0" lfoTrig="0" lfoSync="1" unisonOn="0"
+           mono="1" legato="0" poly="0"/>
