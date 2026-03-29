@@ -21,6 +21,6 @@ Click on the name of the preset. Then, click "Download raw preset".
 
 In Serum, click the "Menu" button, then "Open Serum 2 Presets Folder". 
 
-![Download raw preset](images/open_preset_folder.png).
+![Open preset folder](images/open_preset_folder.png).
 
 Locate the folder called "Presets" and open it; then locate the folder called "User" and open it. Copy the preset in there and it should show up in Serum.
