@@ -6,7 +6,6 @@ https://u-he.com
 
 While I have several u-he products (Diva, ACE, Repro), I never had their flagship plugin, Zebra 2. Zebra 3, the long-anticipated follow-up, took 12 years to develop. 
 
-> **At the time of writing it's still in public beta.**
 > (I hope the patches stay compatible)
 >
 > Get your copy here: https://www.kvraudio.com/forum/viewtopic.php?t=625544
