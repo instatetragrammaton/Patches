@@ -19,4 +19,6 @@ Since these are effectively text files and Github loves to display text files, u
 
 Once you've downloaded the file and it's got the right extension, open Repro-5, navigate to the "Presets", right click on "User" and choose "Open in Finder" (or in Windows, "Open in Explorer").
 
+![Open in Finder](images/open_in_finder.png)
+
 Then, copy the .h2p file you downloaded into that folder. Or create a new one, whatever you like.
