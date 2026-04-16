@@ -14,3 +14,9 @@ The number of the folder (e.g. 16797) indicates the revision/build number. Inste
 Since these are effectively text files and Github loves to display text files, use the "Download raw file" icon when looking at the preset to get the proper version.
 
 ![Download raw file](images/download_raw.png)
+
+# After downloading
+
+Once you've downloaded the file and it's got the right extension, open Repro-5, navigate to the "Presets", right click on "User" and choose "Open in Finder" (or in Windows, "Open in Explorer").
+
+Then, copy the .h2p file you downloaded into that folder. Or create a new one, whatever you like.
