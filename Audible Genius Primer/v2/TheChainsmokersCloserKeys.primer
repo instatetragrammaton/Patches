@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Syntorial osc1Fine="0" osc1PW="0.5" osc2Fine="0" osc2Semi="12" osc2PW="0.5"
+           oscMix="0.51" subVol="-82" noise="-82" fm="0" key="0" cutoff="0.51"
+           res="0" fEnvAmt="0.5" aFilEnv="0.63" dFilEnv="170.03" sFilEnv="0"
+           rFilEnv="10000" aAmpEnv="16.63" dAmpEnv="1890" sAmpEnv="0.46"
+           rAmpEnv="15" aModEnv="0" dModEnv="0" mEnvAmt="0.5" lfoRate="1"
+           lfoAmt="1" mainVol="-5.05" porta="0" velAmt="0" mwAmt="0" unisonSpread="0"
+           unisonDetune="0.091" distAmt="0" chorusMix="0" chorusRate="1"
+           phaserMix="0" phaserFeed="0.8" delayMix="0.05" delayTime="3"
+           delayFeed="0.5" delaySpread="1.1" reverbMix="0.17" reverbSize="0.5"
+           osc1Wave="2" osc2Wave="2" subWave="2" filterType="1" mEnvDest="1"
+           lfoWave="2" lfoDest="1" voiceCount="6" unisonVoice="1" mwDest="1"
+           velDest="1" pbRange="3" osc1On="1" osc2On="1" ring="0" sync="0"
+           start="1" lfoMono="1" lfoPoly="0" lfoTrig="1" lfoSync="1" unisonOn="1"
+           mono="0" legato="0" poly="1" version="2"/>
